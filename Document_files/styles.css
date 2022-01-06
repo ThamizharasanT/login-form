@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(9, 9, 9);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1,
+h3,
+h4 {
+  color: white;
+}
+
+.backgroundImage {
+  width: 12.5%;
+  height: 750px;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.showcase-top {
+  position: fixed;
+  top: 30px;
+}
+
+.btn-sign {
+  position: relative;
+}
+.showcase-content {
+  position: fixed;
+  top: 310px;
+  right: 500px;
+}
+.showcase-content h1 {
+  font-size: 79px;
+}
+
+.showcase-content,
+h3 {
+  font-size: 30px;
+}
